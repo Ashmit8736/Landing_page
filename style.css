@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: #FFEB3B;
+    background-color:
+    color: white;
+}
+
+.top-bar {
+    background-color:  #283593;
+    padding: 20px 0;
+    color: aliceblue;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.contact-info span {
+    margin-right: 15px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    padding-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #283593;
+    color: white;
+    padding: 5px 20px ;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.btn.secondary {
+    background-color:  #FFEB3B;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.services {
+    background-color: #F3F4F6;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box {
+    text-align: center;
+    width: 30%;
+}
+
+.about-us {
+    padding: 50px 0;
+    background-color: #FFEB3B;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 60%;
+    font-weight: bolder;
+}
+
+.about-image img {
+    width: 300px;
+    height: auto;
+}
+
+.our-services {
+    padding: 50px 0;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+}
